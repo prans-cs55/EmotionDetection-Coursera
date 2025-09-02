@@ -1,32 +1,63 @@
 # EmotionDetection-Coursera
 📄 README.md
-# 🎭 Emotion Detector Web App
+# 🎭 Emotion Detection Web Application
 
-This is a Flask-based web application that analyzes text and detects the most likely **emotion** being conveyed.  
-It uses a simple Natural Language Processing (NLP) model to classify input text into five emotions:
+This project is the **Final Peer-Graded Assignment** of the Coursera course offered by IBM.  
+The goal is to build an **AI-based web application** using the **IBM Watson NLP library & API** that detects emotions from text.  
 
-- 😡 Anger  
-- 😖 Disgust  
-- 😨 Fear  
-- 😃 Joy  
-- 😢 Sadness  
+---
+
+## 📌 Project Tasks
+
+✔️ **Task 1: Clone the project repository**  
+Set up the base project and dependencies.  
+
+✔️ **Task 2: Create an emotion detection application**  
+Implemented `emotion_detector` function using **IBM Watson NLP API**.  
+
+✔️ **Task 3: Format the output**  
+Return a JSON with confidence scores for all emotions and highlight the **dominant one**.  
+
+✔️ **Task 4: Package the application**  
+Organized code into a Python package for easy imports.  
+
+✔️ **Task 5: Run Unit tests**  
+Added test cases with `unittest` to validate correctness.  
+
+✔️ **Task 6: Web deployment with Flask**  
+Built a Flask app to allow users to input text and see results on a webpage.  
+
+✔️ **Task 7: Error handling**  
+Handled invalid inputs, empty strings, and API failures gracefully.  
+
+✔️ **Task 8: Static code analysis**  
+Ensured code quality with `pylint` and best practices.  
 
 ---
 
 ## 🚀 Features
-- Web-based UI built with **Flask + Bootstrap**  
-- Real-time emotion detection from user input  
-- Displays **confidence scores** for all emotions  
-- Highlights the **dominant emotion**  
-- AJAX-powered frontend (no page reloads)  
+- Detects **5 emotions**: Joy, Anger, Disgust, Sadness, Fear  
+- Returns **confidence scores** from IBM Watson NLP API  
+- Highlights the dominant detected emotion  
+- Web interface with **AJAX/Fetch API** for real-time updates  
+- Fully **tested & error-handled**  
 
 ---
 
 ## 🛠️ Tech Stack
-- **Backend**: Python, Flask  
-- **Frontend**: HTML, CSS, Bootstrap, JavaScript (Fetch API)  
-- **NLP Logic**: Custom function (`emotion_detector`)  
+- **Backend:** Python, Flask  
+- **Frontend:** HTML, CSS, Bootstrap, JavaScript  
+- **AI/NLP Engine:** IBM Watson NLP API  
+- **Testing:** unittest  
+- **Code Quality:** pylint  
 
+---
+
+## ⚙️ Installation & Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/prans-cs55/EmotionDetection-Coursera
+   cd EmotionDetection-Coursera
 
 
 ## ▶️ How to Run
