@@ -108,3 +108,35 @@ Deploy to cloud (Heroku, Render, or AWS)
 
 Multilingual emotion detection
 
+Create and activate a virtual environment.
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run the Flask app:
+
+python3 server.py
+
+
+Open in browser: http://127.0.0.1:5000
+
+🧪 Running Tests
+python3 -m unittest test_emotion_detection.py
+
+🔑 IBM Watson NLP Setup
+
+Sign up for IBM Cloud and create a Watson NLP service instance.
+
+Get the API Key and URL from your service credentials.
+
+Add them in your application code (or environment variables).
+
+🌟 Future Enhancements
+
+Interactive charts for confidence scores
+
+Support for more emotions & multiple languages
+
+Deploying to Heroku / Render / AWS
