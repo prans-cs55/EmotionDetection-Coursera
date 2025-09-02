@@ -32,7 +32,7 @@ It uses a simple Natural Language Processing (NLP) model to classify input text 
 ## ▶️ How to Run
 
 ### 1. Clone the repository
-git clone <>
+git clone https://github.com/prans-cs55/EmotionDetection-Coursera
 cd final_project
 
 2. Create a virtual environment (recommended)
