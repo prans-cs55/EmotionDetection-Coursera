@@ -98,43 +98,6 @@ python3 -m unittest test_emotion_detection.py
 <img width="2842" height="1436" alt="Screenshot 2025-09-02 191705" src="https://github.com/user-attachments/assets/c0491168-f8d7-4025-9d75-e1a546e2e499" />
 
 
-📌 Future Improvements
-
-Add visual charts (bar graph of emotion scores)
-
-Support for more emotions
-
-Deploy to cloud (Heroku, Render, or AWS)
-
-Multilingual emotion detection
-
-Create and activate a virtual environment.
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Run the Flask app:
-
-python3 server.py
-
-
-Open in browser: http://127.0.0.1:5000
-
-🧪 Running Tests
-python3 -m unittest test_emotion_detection.py
-
-🔑 IBM Watson NLP Setup
-
-Sign up for IBM Cloud and create a Watson NLP service instance.
-
-Get the API Key and URL from your service credentials.
-
-Add them in your application code (or environment variables).
-
-🌟 Future Enhancements
-
 Interactive charts for confidence scores
 
 Support for more emotions & multiple languages
