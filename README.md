@@ -98,8 +98,4 @@ python3 -m unittest test_emotion_detection.py
 <img width="2842" height="1436" alt="Screenshot 2025-09-02 191705" src="https://github.com/user-attachments/assets/c0491168-f8d7-4025-9d75-e1a546e2e499" />
 
 
-Interactive charts for confidence scores
 
-Support for more emotions & multiple languages
-
-Deploying to Heroku / Render / AWS
