@@ -27,27 +27,7 @@ It uses a simple Natural Language Processing (NLP) model to classify input text 
 - **Frontend**: HTML, CSS, Bootstrap, JavaScript (Fetch API)  
 - **NLP Logic**: Custom function (`emotion_detector`)  
 
----
 
-## 📂 Project Structure
-
-
-final_project/
-│── EmotionDetection/
-│ ├── init.py
-│ ├── emotion_detection.py # Core emotion detection logic
-│
-│── templates/
-│ ├── index.html # Frontend UI
-│
-│── static/ # (optional: styles, JS, images)
-│
-│── server.py # Flask server entry point
-│── test_emotion_detection.py # Unit tests
-│── README.md
-
-
----
 
 ## ▶️ How to Run
 
